@@ -139,7 +139,8 @@ a {
 .edu-item,
 .cert-item,
 .lang-item,
-.vol-item {
+.vol-item,
+.project-item {
   font-size: 10pt;
   margin-bottom: 3px;
 }

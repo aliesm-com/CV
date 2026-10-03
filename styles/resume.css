@@ -102,7 +102,7 @@ a {
   grid-template-columns: 1fr auto;
   gap: 18px;
   align-items: center;
-  padding: 9mm 12mm 8mm;
+  padding: 7.5mm 12mm 7mm;
   color: #f8fafc;
   background: linear-gradient(135deg, var(--hero) 0%, var(--hero-2) 55%, #1a2b45 100%);
   overflow: hidden;
@@ -142,7 +142,7 @@ a {
 }
 
 .name {
-  font-size: 23pt;
+  font-size: 22pt;
   font-weight: 800;
   letter-spacing: -0.045em;
   line-height: 0.98;
@@ -182,8 +182,8 @@ a {
 }
 
 .photo-frame {
-  width: 92px;
-  height: 92px;
+  width: 88px;
+  height: 88px;
   border-radius: 14px;
   padding: 3px;
   background: var(--accent);
@@ -232,18 +232,18 @@ a {
 }
 
 .main {
-  padding: 5.5mm 6.5mm 5mm 11mm;
+  padding: 4.5mm 6mm 4mm 10mm;
   border-right: 1px solid var(--line);
   background: var(--paper);
 }
 
 .side {
-  padding: 5.5mm 9mm 5mm 6.5mm;
+  padding: 4.5mm 8mm 4mm 6mm;
   background: var(--paper-soft);
 }
 
 .block {
-  margin-bottom: 4.2mm;
+  margin-bottom: 2.8mm;
 }
 
 .block:last-child {
@@ -254,8 +254,8 @@ a {
   display: flex;
   align-items: center;
   gap: 8px;
-  margin-bottom: 3.2mm;
-  font-size: 8.4pt;
+  margin-bottom: 2.4mm;
+  font-size: 8.2pt;
   font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -282,8 +282,8 @@ a {
 
 .summary {
   color: var(--ink-soft);
-  font-size: 8pt;
-  line-height: 1.4;
+  font-size: 7.85pt;
+  line-height: 1.35;
   text-align: justify;
 }
 
@@ -297,7 +297,7 @@ a {
   display: grid;
   grid-template-columns: 14px 1fr;
   gap: 8px;
-  margin-bottom: 3.4mm;
+  margin-bottom: 2.6mm;
 }
 
 .job:last-child {
@@ -313,7 +313,7 @@ a {
   position: absolute;
   left: 4px;
   top: 8px;
-  bottom: -3.4mm;
+  bottom: -2.6mm;
   width: 1px;
   background: var(--chip-border);
 }
@@ -456,7 +456,7 @@ a {
 
 /* Side */
 .skill-group {
-  margin-bottom: 3mm;
+  margin-bottom: 2.2mm;
 }
 
 .skill-group:last-child {
@@ -480,7 +480,7 @@ a {
 }
 
 .edu-item {
-  margin-bottom: 2.8mm;
+  margin-bottom: 1.8mm;
 }
 
 .edu-item:last-child {
@@ -519,7 +519,7 @@ a {
 
 .lang-list li,
 .extra-list li {
-  margin-bottom: 2.2mm;
+  margin-bottom: 1.4mm;
 }
 
 .lang-list li:last-child,
@@ -558,12 +558,28 @@ a {
   border-top: 1px solid var(--line);
 }
 
+.project-inline {
+  font-size: 7.2pt;
+  line-height: 1.4;
+  color: var(--ink-soft);
+}
+
+.project-inline a,
+.project-inline strong {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.project-inline a:hover {
+  color: var(--accent-deep);
+}
+
 .cert-list {
   list-style: none;
 }
 
 .cert-list li {
-  margin-bottom: 2.2mm;
+  margin-bottom: 1.5mm;
 }
 
 .cert-list li:last-child {
@@ -574,10 +590,10 @@ a {
 .cert-list strong a {
   display: block;
   color: var(--ink);
-  font-size: 7.5pt;
+  font-size: 7.2pt;
   font-weight: 700;
-  line-height: 1.25;
-  margin-bottom: 1px;
+  line-height: 1.2;
+  margin-bottom: 0;
 }
 
 .cert-list strong a:hover {
@@ -588,7 +604,7 @@ a {
   display: block;
   color: var(--muted);
   font-family: "JetBrains Mono", monospace;
-  font-size: 6.7pt;
+  font-size: 6.4pt;
 }
 
 /* Preview toolbar (screen only) */

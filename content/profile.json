@@ -17,7 +17,7 @@
     {
       "school": "Islamic Azad University, Qazvin Branch",
       "degree": "Master's Degree — Artificial Intelligence",
-      "period": "2023 – Present"
+      "period": "2022 – 2026"
     },
     {
       "school": "Islamic Azad University, Karaj Branch",
@@ -28,6 +28,33 @@
   "volunteering": [
     "Software Mentor & Git Instructor — Python/Django Bootcamp at Quera",
     "Translator & Editor — WordPress Community"
+  ],
+  "projects": [
+    {
+      "name": "BaxAuto",
+      "description": "Automation helpers and utilities",
+      "url": "https://github.com/aliesm-com/BaxAuto"
+    },
+    {
+      "name": "RapidHLS",
+      "description": "HLS workflow tooling",
+      "url": "https://github.com/aliesm-com/RapidHLS"
+    },
+    {
+      "name": "Jexon",
+      "description": "Content composer toolkit",
+      "url": "https://github.com/aliesm-com/Jexon"
+    },
+    {
+      "name": "perfometrics",
+      "description": "Website performance metrics toolkit (PyPI)",
+      "url": "https://github.com/aliesm-com/perfometrics"
+    },
+    {
+      "name": "FtpHook",
+      "description": "GitHub release to FTP uploader",
+      "url": "https://github.com/aliesm-com/FtpHook"
+    }
   ],
   "certifications": [
     {
@@ -51,7 +78,7 @@
       "url": "https://quera.org/certificate/I8jt0QvH/"
     },
     {
-      "name": "Web Design for Everybody Specialization",
+      "name": "Web Design for Everybody",
       "issuer": "University of Michigan · Coursera",
       "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/Z6FYUWBX5D9N"
     }

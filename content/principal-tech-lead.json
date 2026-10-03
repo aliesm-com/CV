@@ -2,12 +2,12 @@
   "id": "principal-tech-lead",
   "targetRole": "Principal Software Engineer / Technical Team Lead",
   "headline": "Engineering Leadership · AI Platforms · System Design",
-  "summary": "Hands-on Principal/Senior Software Engineer and Technical Team Lead with 5+ years shipping backend, AI, and platform systems while mentoring teams. Full-time engineering leadership is the primary commitment; advisory and independent AI/platform work are scoped around that core role and do not compete with day-to-day ownership or delivery. Owns architecture, leads delivery, and builds LLM/NLP products with Python, Go, Streamlit, n8n, and DevOps (Docker, Ansible, CI/CD). Fluent in English and Persian; Master's candidate in AI.",
+  "summary": "Hands-on Principal/Senior Software Engineer and Technical Team Lead with 5+ years shipping backend, AI, and platform systems while mentoring teams. Full-time engineering leadership is the primary commitment; advisory and independent AI/platform work are scoped around that core role without competing with delivery. Owns architecture and builds LLM/NLP products with Python, Go, Streamlit, n8n, and DevOps (Docker, Ansible, CI/CD). Fluent in English and Persian; Master's degree in AI.",
   "skills": {
     "Leadership": ["Team Management", "Mentorship", "Architecture Ownership", "Code Reviews", "Delivery Planning"],
-    "Core Engineering": ["Python", "Django", "DRF", "Go", "Echo", "FastAPI", "System Design"],
-    "AI & Automation": ["Generative AI", "LLMs", "NLP", "AI Agents", "Streamlit", "n8n", "Vibe Coding"],
-    "Data & Platform": ["PostgreSQL", "ClickHouse", "Redis", "Data Engineering", "Scraping", "REST APIs"],
+    "Core Engineering": ["Python", "Django", "Django REST Framework", "Go", "Echo", "FastAPI", "System Design"],
+    "AI & Automation": ["Generative AI", "LLMs", "NLP", "AI Agents", "Streamlit", "n8n", "AI-assisted Development"],
+    "Data & Platform": ["PostgreSQL", "ClickHouse", "Redis", "Data Engineering", "Web Scraping", "REST APIs"],
     "DevOps & Reliability": ["Linux", "Docker", "Ansible", "CI/CD", "Nginx", "Traefik", "WebSockets"]
   },
   "experience": [
@@ -18,8 +18,8 @@
       "location": "Montreal, Canada",
       "period": "Jul 2023 – Present",
       "bullets": [
-        "Drive end-to-end embedded/backend delivery with focus on reliability, performance, and hardware integration.",
-        "Lead AI analytics/automation design with AI and embedded teams; own Django platforms, CI/CD, and reviews."
+        "Drive end-to-end embedded and backend delivery focused on reliability, performance, and hardware-software integration.",
+        "Lead AI analytics design with cross-functional teams; own Django platforms, CI/CD quality gates, and engineering reviews."
       ]
     },
     {
@@ -29,8 +29,8 @@
       "location": "Iran",
       "period": "Sep 2024 – Present",
       "bullets": [
-        "Own AI-ready backend architecture in Python/Go/Docker and production reverse-proxy stacks.",
-        "Lead LLM/NLP, Streamlit, and n8n integrations; coach AI-assisted (vibe coding) delivery practices."
+        "Own AI-ready backend architecture in Python, Go, and Docker, including production reverse-proxy and release automation.",
+        "Lead LLM/NLP, Streamlit, and n8n integrations; coach teams on AI-assisted development practices for faster delivery."
       ]
     },
     {
@@ -40,7 +40,7 @@
       "location": "Alborz, Iran",
       "period": "Jun 2025 – Present",
       "bullets": [
-        "Advise Network/Security teams on integration strategy, scalable designs, and API/automation delivery."
+        "Advise Network and Security teams on integration strategy, scalable designs, and API/automation delivery."
       ]
     },
     {
@@ -50,7 +50,7 @@
       "location": "Alborz, Iran",
       "period": "Jun 2023 – Jul 2025",
       "bullets": [
-        "Consulted on SEO analytics platforms (Python, Django, ClickHouse) and led remediation of complex backend issues."
+        "Consulted on SEO analytics platforms (Python, Django, ClickHouse) and closed complex backend issues with about 95% success."
       ]
     },
     {
@@ -60,7 +60,7 @@
       "location": "Karaj, Iran",
       "period": "May 2022 – May 2023",
       "bullets": [
-        "Led engineers delivering data pipelines and SEO tooling; mentored on Python/Django quality and Dockerized services."
+        "Led engineers delivering data pipelines and SEO tooling; mentoring and reviews reduced recurring defects by about 20%."
       ]
     },
     {
@@ -70,7 +70,7 @@
       "location": "Karaj, Iran",
       "period": "Jun 2021 – May 2022",
       "bullets": [
-        "Delivered secured Django/DRF APIs and keyword intelligence features with strong testing and documentation."
+        "Delivered 10 Django apps and 30+ secured Django REST Framework APIs, improving access-control quality by about 40%."
       ]
     }
   ]

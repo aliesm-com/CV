@@ -21,8 +21,17 @@ function shortLink(url) {
   return url.replace(/^https?:\/\//, "").replace(/\/$/, "");
 }
 
+function asciiText(value) {
+  return String(value)
+    .replaceAll("–", "-")
+    .replaceAll("—", "-")
+    .replaceAll("·", "|")
+    .replaceAll("’", "'")
+    .replaceAll("‘", "'");
+}
+
 function asciiPeriod(period) {
-  return String(period).replaceAll("–", "-").replaceAll("—", "-");
+  return asciiText(period);
 }
 
 function groupExperience(experience) {
@@ -185,9 +194,9 @@ function renderEducationAts(education) {
   return education
     .map(
       (ed) => `
-      <p class="edu-item"><strong>${escapeHtml(ed.degree)}</strong> | ${escapeHtml(ed.school)} | ${escapeHtml(
-        asciiPeriod(ed.period)
-      )}</p>`
+      <p class="edu-item"><strong>${escapeHtml(asciiText(ed.degree))}</strong> | ${escapeHtml(
+        asciiText(ed.school)
+      )} | ${escapeHtml(asciiPeriod(ed.period))}</p>`
     )
     .join("");
 }
@@ -212,6 +221,23 @@ function renderLanguagesAts(languages) {
     .map(
       (lang) =>
         `<p class="lang-item"><strong>${escapeHtml(lang.name)}:</strong> ${escapeHtml(lang.level)}</p>`
+    )
+    .join("");
+}
+
+function renderProjectsDesigned(projects) {
+  return `<p class="project-inline">${projects
+    .map((p) => `<a href="${escapeHtml(p.url)}"><strong>${escapeHtml(p.name)}</strong></a>`)
+    .join(" · ")}</p>`;
+}
+
+function renderProjectsAts(projects) {
+  return projects
+    .map(
+      (p) =>
+        `<p class="project-item"><strong>${escapeHtml(asciiText(p.name))}</strong> - ${escapeHtml(
+          asciiText(p.description)
+        )} (${escapeHtml(shortLink(p.url))})</p>`
     )
     .join("");
 }
@@ -300,7 +326,7 @@ function contactRowAts(profile) {
   const parts = [
     profile.phone,
     profile.email,
-    profile.location,
+    asciiText(profile.location),
     shortLink(profile.links.linkedin),
     shortLink(profile.links.github),
   ];
@@ -353,15 +379,19 @@ export function renderResume({ profile, role, showPhoto, variants, currentFile, 
           ${renderSkillsDesigned(role.skills)}
         </section>
         <section class="block">
-          <h2 class="section-title"><span>04</span> Education</h2>
+          <h2 class="section-title"><span>04</span> Projects</h2>
+          ${renderProjectsDesigned(profile.projects)}
+        </section>
+        <section class="block">
+          <h2 class="section-title"><span>05</span> Education</h2>
           ${renderEducationDesigned(profile.education)}
         </section>
         <section class="block">
-          <h2 class="section-title"><span>05</span> Certifications</h2>
+          <h2 class="section-title"><span>06</span> Certifications</h2>
           ${renderCertificationsDesigned(profile.certifications)}
         </section>
         <section class="block">
-          <h2 class="section-title"><span>06</span> Languages</h2>
+          <h2 class="section-title"><span>07</span> Languages</h2>
           ${renderLanguagesDesigned(profile.languages)}
           <ul class="extra-list compact">
             ${profile.volunteering.map((v) => `<li><strong>Volunteer</strong> ${escapeHtml(v)}</li>`).join("")}
@@ -389,14 +419,14 @@ function renderAtsResume({ profile, role, variants, currentFile }) {
   <main class="page" role="document">
     <header class="header">
       <h1 class="name">${escapeHtml(profile.name)}</h1>
-      <p class="target-role">${escapeHtml(role.targetRole)}</p>
-      <p class="headline">${escapeHtml(role.headline)}</p>
+      <p class="target-role">${escapeHtml(asciiText(role.targetRole))}</p>
+      <p class="headline">${escapeHtml(asciiText(role.headline))}</p>
       <p class="contact">${contactRowAts(profile)}</p>
     </header>
 
     <section class="section">
       <h2 class="section-title">SUMMARY</h2>
-      <p class="summary">${escapeHtml(role.summary)}</p>
+      <p class="summary">${escapeHtml(asciiText(role.summary))}</p>
     </section>
 
     <section class="section">
@@ -407,6 +437,11 @@ function renderAtsResume({ profile, role, variants, currentFile }) {
     <section class="section">
       <h2 class="section-title">SKILLS</h2>
       ${renderSkillsAts(role.skills)}
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">PROJECTS</h2>
+      ${renderProjectsAts(profile.projects)}
     </section>
 
     <section class="section">
