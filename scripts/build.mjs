@@ -77,12 +77,15 @@ async function writePdfs(variants) {
         document.querySelector(".toolbar")?.remove();
         if (document.fonts?.ready) await document.fonts.ready;
       });
+      const isAts = variant.mode === "ats";
       await page.pdf({
         path: path.join(outDir, variant.pdf),
         format: "A4",
-        printBackground: true,
-        margin: { top: "0", right: "0", bottom: "0", left: "0" },
-        preferCSSPageSize: true,
+        printBackground: !isAts,
+        margin: isAts
+          ? { top: "14mm", right: "14mm", bottom: "14mm", left: "14mm" }
+          : { top: "0", right: "0", bottom: "0", left: "0" },
+        preferCSSPageSize: !isAts,
         tagged: false,
         outline: false,
       });
