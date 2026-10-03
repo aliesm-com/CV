@@ -1,0 +1,59 @@
+{
+  "name": "Ali Esmaeili",
+  "phone": "+98 (936) 594-6736",
+  "email": "Hi@aliesm.com",
+  "location": "Remote · Open to relocation",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/aliesm-com/",
+    "github": "https://github.com/aliesm-com",
+    "website": "https://aliesm.com"
+  },
+  "photo": "assets/photo.jpg",
+  "languages": [
+    { "name": "English", "level": "Professional working proficiency" },
+    { "name": "Persian", "level": "Native" }
+  ],
+  "education": [
+    {
+      "school": "Islamic Azad University, Qazvin Branch",
+      "degree": "Master's Degree — Artificial Intelligence",
+      "period": "2023 – Present"
+    },
+    {
+      "school": "Islamic Azad University, Karaj Branch",
+      "degree": "Bachelor's Degree — Computer Engineering",
+      "period": "2018 – 2022"
+    }
+  ],
+  "volunteering": [
+    "Software Mentor & Git Instructor — Python/Django Bootcamp at Quera",
+    "Translator & Editor — WordPress Community"
+  ],
+  "certifications": [
+    {
+      "name": "5-Day Gen AI Intensive with Google",
+      "issuer": "Google · Kaggle",
+      "url": "https://www.kaggle.com/certification/badges/realxoman/96"
+    },
+    {
+      "name": "Supervised Machine Learning: Regression and Classification",
+      "issuer": "DeepLearning.AI · Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/verify/ZVGLNKKB9R5M"
+    },
+    {
+      "name": "Using Python to Interact with the Operating System",
+      "issuer": "Google · Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/verify/9G8RBKWKDER5"
+    },
+    {
+      "name": "Linux — Task Oriented Course",
+      "issuer": "Quera College · Perfect",
+      "url": "https://quera.org/certificate/I8jt0QvH/"
+    },
+    {
+      "name": "Web Design for Everybody Specialization",
+      "issuer": "University of Michigan · Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/Z6FYUWBX5D9N"
+    }
+  ]
+}

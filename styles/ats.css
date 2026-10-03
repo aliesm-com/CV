@@ -1,0 +1,210 @@
+/* ATS-first resume: single column, standard fonts, no graphics */
+
+@page {
+  size: A4;
+  margin: 14mm 14mm 14mm 14mm;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background: #ffffff;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10.5pt;
+  line-height: 1.35;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.page {
+  width: auto;
+  max-width: 180mm;
+  margin: 20px auto;
+  background: #ffffff;
+  padding: 0;
+}
+
+.header {
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #000000;
+}
+
+.name {
+  font-size: 18pt;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.target-role {
+  font-size: 11pt;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.headline {
+  font-size: 10pt;
+  margin-bottom: 6px;
+}
+
+.contact {
+  font-size: 9.5pt;
+  line-height: 1.4;
+}
+
+.section {
+  margin-top: 12px;
+}
+
+.section-title {
+  font-size: 11pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 2px;
+  margin-bottom: 6px;
+}
+
+.summary {
+  font-size: 10pt;
+}
+
+.job {
+  margin-bottom: 10px;
+}
+
+.job-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: baseline;
+}
+
+.job-role {
+  font-size: 10.5pt;
+  font-weight: bold;
+}
+
+.job-period {
+  font-size: 9.5pt;
+  white-space: nowrap;
+}
+
+.job-meta {
+  font-size: 9.5pt;
+  margin: 1px 0 3px;
+}
+
+.company-block {
+  margin-bottom: 10px;
+}
+
+.company-name {
+  font-size: 10.5pt;
+  font-weight: bold;
+}
+
+.company-span {
+  font-size: 9.5pt;
+}
+
+.role {
+  margin-top: 6px;
+  margin-left: 0;
+}
+
+.bullets {
+  margin: 0 0 0 18px;
+  padding: 0;
+}
+
+.bullets li {
+  margin-bottom: 2px;
+  font-size: 10pt;
+}
+
+.skill-line,
+.edu-item,
+.cert-item,
+.lang-item,
+.vol-item {
+  font-size: 10pt;
+  margin-bottom: 3px;
+}
+
+.skill-label {
+  font-weight: bold;
+}
+
+.edu-item strong,
+.cert-item strong,
+.lang-item strong {
+  font-weight: bold;
+}
+
+.toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 16px;
+  background: #111111;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.toolbar a,
+.toolbar button {
+  color: #ffffff;
+  text-decoration: none;
+  background: transparent;
+  border: 1px solid #555555;
+  border-radius: 999px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font: inherit;
+}
+
+.toolbar a.active,
+.toolbar a:hover,
+.toolbar button:hover {
+  background: #333333;
+}
+
+.toolbar .label {
+  color: #bbbbbb;
+  margin-right: 4px;
+}
+
+@media print {
+  html,
+  body {
+    background: #ffffff;
+  }
+
+  .toolbar {
+    display: none !important;
+  }
+
+  .page {
+    margin: 0;
+    max-width: none;
+  }
+}

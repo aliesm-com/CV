@@ -1,0 +1,20 @@
+{
+  "name": "ali-esmaeili-resume",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Editable, ATS-friendly resume builder with PDF export",
+  "type": "module",
+  "scripts": {
+    "postinstall": "npx puppeteer browsers install chrome",
+    "build": "node scripts/build.mjs",
+    "build:html": "node scripts/build.mjs --html-only",
+    "verify:ats": "node scripts/verify-ats.mjs",
+    "preview": "node scripts/preview.mjs",
+    "dev": "node scripts/preview.mjs"
+  },
+  "dependencies": {
+    "@fontsource/jetbrains-mono": "^5.3.0",
+    "@fontsource/manrope": "^5.3.0",
+    "puppeteer": "^24.22.3"
+  }
+}

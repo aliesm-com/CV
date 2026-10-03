@@ -1,0 +1,77 @@
+{
+  "id": "principal-tech-lead",
+  "targetRole": "Principal Software Engineer / Technical Team Lead",
+  "headline": "Engineering Leadership · AI Platforms · System Design",
+  "summary": "Hands-on Principal/Senior Software Engineer and Technical Team Lead with 5+ years shipping backend, AI, and platform systems while mentoring teams. Full-time engineering leadership is the primary commitment; advisory and independent AI/platform work are scoped around that core role and do not compete with day-to-day ownership or delivery. Owns architecture, leads delivery, and builds LLM/NLP products with Python, Go, Streamlit, n8n, and DevOps (Docker, Ansible, CI/CD). Fluent in English and Persian; Master's candidate in AI.",
+  "skills": {
+    "Leadership": ["Team Management", "Mentorship", "Architecture Ownership", "Code Reviews", "Delivery Planning"],
+    "Core Engineering": ["Python", "Django", "DRF", "Go", "Echo", "FastAPI", "System Design"],
+    "AI & Automation": ["Generative AI", "LLMs", "NLP", "AI Agents", "Streamlit", "n8n", "Vibe Coding"],
+    "Data & Platform": ["PostgreSQL", "ClickHouse", "Redis", "Data Engineering", "Scraping", "REST APIs"],
+    "DevOps & Reliability": ["Linux", "Docker", "Ansible", "CI/CD", "Nginx", "Traefik", "WebSockets"]
+  },
+  "experience": [
+    {
+      "company": "Neurocage Systems LTD",
+      "role": "Senior Software Engineer",
+      "employment": "Full-time · Remote",
+      "location": "Montreal, Canada",
+      "period": "Jul 2023 – Present",
+      "bullets": [
+        "Drive end-to-end embedded/backend delivery with focus on reliability, performance, and hardware integration.",
+        "Lead AI analytics/automation design with AI and embedded teams; own Django platforms, CI/CD, and reviews."
+      ]
+    },
+    {
+      "company": "Ai Run",
+      "role": "Backend Engineer | AI Systems & DevOps",
+      "employment": "Self-employed · Ownership",
+      "location": "Iran",
+      "period": "Sep 2024 – Present",
+      "bullets": [
+        "Own AI-ready backend architecture in Python/Go/Docker and production reverse-proxy stacks.",
+        "Lead LLM/NLP, Streamlit, and n8n integrations; coach AI-assisted (vibe coding) delivery practices."
+      ]
+    },
+    {
+      "company": "Acticomp",
+      "role": "Technical Consultant",
+      "employment": "Contract · Hybrid",
+      "location": "Alborz, Iran",
+      "period": "Jun 2025 – Present",
+      "bullets": [
+        "Advise Network/Security teams on integration strategy, scalable designs, and API/automation delivery."
+      ]
+    },
+    {
+      "company": "Mizfa Tools",
+      "role": "Technical Consultant",
+      "employment": "Contract · Remote",
+      "location": "Alborz, Iran",
+      "period": "Jun 2023 – Jul 2025",
+      "bullets": [
+        "Consulted on SEO analytics platforms (Python, Django, ClickHouse) and led remediation of complex backend issues."
+      ]
+    },
+    {
+      "company": "Mizfa Tools",
+      "role": "Technical Team Lead",
+      "employment": "Full-time · On-site",
+      "location": "Karaj, Iran",
+      "period": "May 2022 – May 2023",
+      "bullets": [
+        "Led engineers delivering data pipelines and SEO tooling; mentored on Python/Django quality and Dockerized services."
+      ]
+    },
+    {
+      "company": "Mizfa Tools",
+      "role": "Software Engineer",
+      "employment": "Full-time · On-site",
+      "location": "Karaj, Iran",
+      "period": "Jun 2021 – May 2022",
+      "bullets": [
+        "Delivered secured Django/DRF APIs and keyword intelligence features with strong testing and documentation."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "senior-software-engineer",
+  "targetRole": "Senior Software Engineer",
+  "headline": "Backend · AI Systems · Platform Engineering",
+  "summary": "Senior Software Engineer with 5+ years shipping production systems in Python, Go, AI/LLM workflows, and DevOps. Primary focus is full-time product engineering; selective consulting and self-directed AI/backend work run in parallel without impacting full-time delivery or ownership. Builds scalable backends, embeds LLMs/NLP into products, automates infrastructure with Ansible/CI-CD, and ships AI-assisted (vibe coding) workflows across Django, Streamlit, n8n, embedded integration, and cloud deployments. Fluent in English and Persian; Master's candidate in Artificial Intelligence.",
+  "skills": {
+    "Core": ["Python", "Django", "DRF", "Go", "Echo", "FastAPI", "Flask"],
+    "AI & Automation": ["Generative AI", "LLMs", "NLP", "AI Agents", "Streamlit", "n8n", "Vibe Coding"],
+    "Data & Backend": ["PostgreSQL", "MySQL", "ClickHouse", "MongoDB", "Redis", "RabbitMQ", "Scraping", "Big Data"],
+    "DevOps & Platform": ["Linux", "Docker", "Ansible", "CI/CD", "Nginx", "Traefik", "WebSockets", "SSL/DNS/CDN"],
+    "Frontend & Tooling": ["Astro", "Electron.js", "Git", "REST APIs"]
+  },
+  "experience": [
+    {
+      "company": "Neurocage Systems LTD",
+      "role": "Senior Software Engineer",
+      "employment": "Full-time · Remote",
+      "location": "Montreal, Canada",
+      "period": "Jul 2023 – Present",
+      "bullets": [
+        "Build high-reliability embedded software focused on performance, hardware integration, and production stability.",
+        "Design AI analytics/automation and agents that process data, generate insights, and visualize results.",
+        "Ship Django management panels, device-backend integrations, CI/CD pipelines, and cross-team architecture reviews."
+      ]
+    },
+    {
+      "company": "Ai Run",
+      "role": "Backend Engineer | AI Systems & DevOps",
+      "employment": "Self-employed",
+      "location": "Iran",
+      "period": "Sep 2024 – Present",
+      "bullets": [
+        "Build Python (Django) and Go backends for AI-driven, high-performance applications.",
+        "Operate Docker/CI-CD/Traefik/Nginx stacks and integrate LLMs, NLP, Streamlit, and n8n into production workflows."
+      ]
+    },
+    {
+      "company": "Acticomp",
+      "role": "Technical Consultant",
+      "employment": "Contract · Hybrid",
+      "location": "Alborz, Iran",
+      "period": "Jun 2025 – Present",
+      "bullets": [
+        "Advise Network/Security teams on software integration; deliver API/Ansible automation and technical documentation."
+      ]
+    },
+    {
+      "company": "Mizfa Tools",
+      "role": "Technical Consultant",
+      "employment": "Contract · Remote",
+      "location": "Alborz, Iran",
+      "period": "Jun 2023 – Jul 2025",
+      "bullets": [
+        "Advised on SEO analytics architecture (Python, Django, ClickHouse) and resolved complex backend performance issues."
+      ]
+    },
+    {
+      "company": "Mizfa Tools",
+      "role": "Technical Team Lead",
+      "employment": "Full-time · On-site",
+      "location": "Karaj, Iran",
+      "period": "May 2022 – May 2023",
+      "bullets": [
+        "Led data-pipeline delivery for SEO analytics; optimized SQL/schemas and Dockerized services for large-scale workloads."
+      ]
+    },
+    {
+      "company": "Mizfa Tools",
+      "role": "Software Engineer",
+      "employment": "Full-time · On-site",
+      "location": "Karaj, Iran",
+      "period": "Jun 2021 – May 2022",
+      "bullets": [
+        "Developed Django/DRF APIs with custom permissions and keyword features that improved search relevance."
+      ]
+    }
+  ]
+}
