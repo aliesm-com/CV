@@ -33,27 +33,68 @@
     {
       "name": "BaxAuto",
       "description": "Automation helpers and utilities",
-      "url": "https://github.com/aliesm-com/BaxAuto"
+      "url": "https://github.com/aliesm-com/BaxAuto",
+      "type": "opensource"
     },
     {
       "name": "RapidHLS",
       "description": "HLS workflow tooling",
-      "url": "https://github.com/aliesm-com/RapidHLS"
+      "url": "https://github.com/aliesm-com/RapidHLS",
+      "type": "opensource"
     },
     {
       "name": "Jexon",
       "description": "Content composer toolkit",
-      "url": "https://github.com/aliesm-com/Jexon"
+      "url": "https://github.com/aliesm-com/Jexon",
+      "type": "opensource"
     },
     {
       "name": "perfometrics",
       "description": "Website performance metrics toolkit (PyPI)",
-      "url": "https://github.com/aliesm-com/perfometrics"
+      "url": "https://github.com/aliesm-com/perfometrics",
+      "type": "opensource"
     },
     {
       "name": "FtpHook",
       "description": "GitHub release to FTP uploader",
-      "url": "https://github.com/aliesm-com/FtpHook"
+      "url": "https://github.com/aliesm-com/FtpHook",
+      "type": "opensource"
+    },
+    {
+      "name": "khalifechi.com",
+      "description": "Enterprise web platform",
+      "url": "https://khalifechi.com",
+      "type": "enterprise"
+    },
+    {
+      "name": "alizade-watchgallery.com",
+      "description": "Enterprise e-commerce / retail web platform",
+      "url": "https://alizade-watchgallery.com",
+      "type": "enterprise"
+    },
+    {
+      "name": "bencoshoes.ir",
+      "description": "Enterprise e-commerce web platform",
+      "url": "https://bencoshoes.ir",
+      "type": "enterprise"
+    },
+    {
+      "name": "therahome.ir",
+      "description": "Enterprise web platform",
+      "url": "https://therahome.ir",
+      "type": "enterprise"
+    },
+    {
+      "name": "dastres.net",
+      "description": "Dastres SST AI - Enterprise AI platform",
+      "url": "https://dastres.net",
+      "type": "enterprise"
+    },
+    {
+      "name": "ecommercy.net",
+      "description": "ECommercy - Enterprise e-commerce platform",
+      "url": "https://ecommercy.net",
+      "type": "enterprise"
     }
   ],
   "certifications": [

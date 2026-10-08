@@ -225,21 +225,48 @@ function renderLanguagesAts(languages) {
     .join("");
 }
 
+function splitProjects(projects) {
+  const opensource = projects.filter((p) => (p.type || "opensource") === "opensource");
+  const enterprise = projects.filter((p) => p.type === "enterprise");
+  return { opensource, enterprise };
+}
+
 function renderProjectsDesigned(projects) {
-  return `<p class="project-inline">${projects
-    .map((p) => `<a href="${escapeHtml(p.url)}"><strong>${escapeHtml(p.name)}</strong></a>`)
-    .join(" · ")}</p>`;
+  const { opensource, enterprise } = splitProjects(projects);
+  const chips = (items) =>
+    items
+      .map(
+        (p) =>
+          `<a class="project-chip" href="${escapeHtml(p.url)}"><strong>${escapeHtml(p.name)}</strong></a>`
+      )
+      .join("");
+
+  return `
+    <div class="projects-panel">
+      <div class="project-group">
+        <div class="project-label">Enterprise</div>
+        <div class="project-chips">${chips(enterprise)}</div>
+      </div>
+      <div class="project-group">
+        <div class="project-label">Open Source</div>
+        <div class="project-chips">${chips(opensource)}</div>
+      </div>
+    </div>`;
 }
 
 function renderProjectsAts(projects) {
-  return projects
-    .map(
-      (p) =>
-        `<p class="project-item"><strong>${escapeHtml(asciiText(p.name))}</strong> - ${escapeHtml(
-          asciiText(p.description)
-        )} (${escapeHtml(shortLink(p.url))})</p>`
-    )
-    .join("");
+  const { opensource, enterprise } = splitProjects(projects);
+  const block = (label, items) =>
+    `<p class="project-item"><span class="skill-label">${label}:</span> ${items
+      .map(
+        (p) =>
+          `${escapeHtml(asciiText(p.name))} - ${escapeHtml(asciiText(p.description))} (${escapeHtml(
+            shortLink(p.url)
+          )})`
+      )
+      .join("; ")}</p>`;
+
+  return `${block("Enterprise", enterprise)}${block("Open Source", opensource)}`;
 }
 
 function renderCertificationsDesigned(certifications) {
@@ -372,15 +399,15 @@ export function renderResume({ profile, role, showPhoto, variants, currentFile, 
           <h2 class="section-title"><span>02</span> Experience</h2>
           <div class="timeline">${renderExperienceDesigned(role.experience)}</div>
         </section>
+        <section class="block projects-block">
+          <h2 class="section-title"><span>03</span> Projects</h2>
+          ${renderProjectsDesigned(profile.projects)}
+        </section>
       </div>
       <aside class="side">
         <section class="block">
-          <h2 class="section-title"><span>03</span> Skills</h2>
+          <h2 class="section-title"><span>04</span> Skills</h2>
           ${renderSkillsDesigned(role.skills)}
-        </section>
-        <section class="block">
-          <h2 class="section-title"><span>04</span> Projects</h2>
-          ${renderProjectsDesigned(profile.projects)}
         </section>
         <section class="block">
           <h2 class="section-title"><span>05</span> Education</h2>
@@ -435,13 +462,13 @@ function renderAtsResume({ profile, role, variants, currentFile }) {
     </section>
 
     <section class="section">
-      <h2 class="section-title">SKILLS</h2>
-      ${renderSkillsAts(role.skills)}
+      <h2 class="section-title">PROJECTS</h2>
+      ${renderProjectsAts(profile.projects)}
     </section>
 
     <section class="section">
-      <h2 class="section-title">PROJECTS</h2>
-      ${renderProjectsAts(profile.projects)}
+      <h2 class="section-title">SKILLS</h2>
+      ${renderSkillsAts(role.skills)}
     </section>
 
     <section class="section">

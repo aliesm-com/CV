@@ -2,7 +2,7 @@
   "id": "principal-tech-lead",
   "targetRole": "Principal Software Engineer / Technical Team Lead",
   "headline": "Engineering Leadership · AI Platforms · System Design",
-  "summary": "Hands-on Principal/Senior Software Engineer and Technical Team Lead with 5+ years shipping backend, AI, and platform systems while mentoring teams. Full-time engineering leadership is the primary commitment; advisory and independent AI/platform work are scoped around that core role without competing with delivery. Owns architecture and builds LLM/NLP products with Python, Go, Streamlit, n8n, and DevOps (Docker, Ansible, CI/CD). Fluent in English and Persian; Master's degree in AI.",
+  "summary": "Hands-on Principal/Senior Software Engineer and Technical Team Lead with 5+ years shipping backend, AI, and platform systems while mentoring teams. Full-time engineering leadership is the primary commitment; advisory and AI/platform side work are scoped around that core role without competing with delivery. Owns architecture and builds LLM/NLP products with Python, Go, Streamlit, n8n, and DevOps. Fluent in English and Persian; Master's degree in AI.",
   "skills": {
     "Leadership": ["Team Management", "Mentorship", "Architecture Ownership", "Code Reviews", "Delivery Planning"],
     "Core Engineering": ["Python", "Django", "Django REST Framework", "Go", "Echo", "FastAPI", "System Design"],
@@ -29,9 +29,8 @@
       "location": "Iran",
       "period": "Sep 2024 – Present",
       "bullets": [
-        "Lead engineering for scalable Python (Django) and Go backends; establish standards, reviews, and high-traffic performance work.",
-        "Drive LLM/automation strategy into production; direct WebSocket/real-time architectures for high availability and low latency.",
-        "Own DevOps/CI/CD with Docker, Traefik, and Nginx; mentor developers and coordinate roadmaps for reliable releases."
+        "Lead Python (Django)/Go backend architecture, standards, reviews, and LLM/automation delivery into production.",
+        "Own real-time services, Docker/Traefik/Nginx CI/CD, and mentor developers for reliable release roadmaps."
       ]
     },
     {
