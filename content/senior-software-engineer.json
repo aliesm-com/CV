@@ -25,13 +25,14 @@
     },
     {
       "company": "Ai Run",
-      "role": "Backend Engineer | AI Systems & DevOps",
-      "employment": "Self-employed",
+      "role": "Software Team Lead | Backend, AI Systems & DevOps",
+      "employment": "Self-employed · On-site",
       "location": "Iran",
       "period": "Sep 2024 – Present",
       "bullets": [
-        "Architect Python (Django) and Go backend services for AI-driven applications with Docker-based production deployments.",
-        "Operate Traefik/Nginx, SSL, DNS, and CI/CD stacks; integrate LLMs, NLP, Streamlit, and n8n into production workflows."
+        "Lead architecture and delivery of Python (Django) and Go backends for AI-driven apps; set coding standards and run reviews.",
+        "Spearhead LLM/automation integrations and real-time services (WebSockets); own Docker, Traefik/Nginx, SSL, DNS, and CI/CD.",
+        "Mentor developers and align engineering roadmaps with product goals for reliable production releases."
       ]
     },
     {
