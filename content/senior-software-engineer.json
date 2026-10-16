@@ -1,45 +1,45 @@
 {
   "id": "senior-software-engineer",
   "targetRole": "Senior Software Engineer",
-  "headline": "Backend · AI Systems · Platform Engineering",
-  "summary": "Senior Software Engineer with 5+ years shipping production systems in Python, Go, AI/LLM workflows, and DevOps. Primary focus is full-time product engineering; selective consulting and AI/backend side work run in parallel without impacting full-time delivery. Builds scalable backends, embeds LLMs/NLP into products, automates infrastructure with Ansible and CI/CD, and ships AI-assisted development workflows across Django, Streamlit, n8n, and cloud deployments. Fluent in English and Persian; Master's degree in Artificial Intelligence.",
+  "headline": "Backend · Real-time Systems · AI Platforms",
+  "summary": "Senior Software Engineer with 5+ years shipping production systems in Python, Go, AI/LLM workflows, and DevOps. Primary focus is full-time product engineering; selective consulting and AI/backend side work run in parallel without impacting full-time delivery. Builds high-concurrency backends, real-time communication (WebSockets), and high-volume event analytics (ClickHouse/Redis), and embeds LLMs/NLP into products with Ansible/CI/CD automation. Interested in scalable real-time backends, live-ops infrastructure, and AI for interactive, high-throughput products. Fluent in English and Persian; Master's degree in Artificial Intelligence.",
   "skills": {
     "Core": ["Python", "Django", "Django REST Framework", "Go", "Echo", "FastAPI", "Flask"],
+    "Real-time & Concurrency": ["WebSockets", "Real-time Communication", "High-concurrency Backends", "Go", "Redis"],
     "AI & Automation": ["Generative AI", "LLMs", "NLP", "AI Agents", "Streamlit", "n8n", "AI-assisted Development"],
-    "Data & Backend": ["PostgreSQL", "MySQL", "ClickHouse", "MongoDB", "Redis", "RabbitMQ", "Web Scraping", "Big Data"],
-    "DevOps & Platform": ["Linux", "Docker", "Ansible", "CI/CD", "Nginx", "Traefik", "WebSockets", "SSL/DNS/CDN"],
-    "Frontend & Tooling": ["Astro", "Electron.js", "Git", "REST APIs"]
+    "Data & Analytics": ["ClickHouse", "High-volume Event Analytics", "PostgreSQL", "MySQL", "MongoDB", "RabbitMQ", "Big Data"],
+    "DevOps & Platform": ["Linux", "Docker", "Ansible", "CI/CD", "Nginx", "Traefik", "SSL/DNS/CDN"]
   },
   "experience": [
     {
       "company": "Neurocage Systems LTD",
       "role": "Senior Software Engineer",
       "employment": "Full-time · Remote",
-      "location": "Montreal, Canada",
+      "location": "Remote",
       "period": "Jul 2023 – Present",
       "bullets": [
         "Deliver embedded and backend software focused on reliability, hardware integration, and production stability across multi-team releases.",
-        "Design AI analytics agents and visualization workflows that turn operational data into actionable insights for product stakeholders.",
-        "Own Django management panels, device-to-cloud integrations, and CI/CD pipelines that accelerate safe testing and deployment."
+        "Design AI analytics agents and visualization workflows over operational/event data for faster product decisions.",
+        "Own Django management panels, device-to-cloud integrations, and CI/CD pipelines that accelerate safe releases."
       ]
     },
     {
       "company": "Ai Run",
       "role": "Software Team Lead | Backend, AI Systems & DevOps",
       "employment": "Self-employed · On-site",
-      "location": "Iran",
+      "location": "Karaj",
       "period": "Sep 2024 – Present",
       "bullets": [
-        "Lead architecture and delivery of Python (Django) and Go backends for AI-driven apps; set coding standards and run reviews.",
-        "Spearhead LLM/automation integrations and real-time services (WebSockets); own Docker, Traefik/Nginx, SSL, DNS, and CI/CD.",
-        "Mentor developers and align engineering roadmaps with product goals for reliable production releases."
+        "Lead high-concurrency Python (Django) and Go backends with Redis; set standards and run code reviews.",
+        "Ship real-time communication (WebSockets) and LLM/automation pipelines; own Docker, Traefik/Nginx, SSL, DNS, and CI/CD.",
+        "Mentor developers and align roadmaps for reliable live production releases."
       ]
     },
     {
       "company": "Acticomp",
       "role": "Technical Consultant",
       "employment": "Contract · Hybrid",
-      "location": "Alborz, Iran",
+      "location": "Karaj",
       "period": "Jun 2025 – Present",
       "bullets": [
         "Advise Network and Security teams on software integration; deliver API and Ansible automation with implementation guides."
@@ -49,27 +49,27 @@
       "company": "Mizfa Tools",
       "role": "Technical Consultant",
       "employment": "Contract · Remote",
-      "location": "Alborz, Iran",
+      "location": "Karaj",
       "period": "Jun 2023 – Jul 2025",
       "bullets": [
-        "Advised on SEO analytics architecture (Python, Django, ClickHouse) and resolved backend conflicts with about 95% issue-closure success."
+        "Advised on high-volume event/SEO analytics with Python, Django, and ClickHouse; closed backend issues with about 95% success."
       ]
     },
     {
       "company": "Mizfa Tools",
       "role": "Technical Team Lead",
       "employment": "Full-time · On-site",
-      "location": "Karaj, Iran",
+      "location": "Karaj",
       "period": "May 2022 – May 2023",
       "bullets": [
-        "Led data-pipeline delivery for SEO analytics and mentored engineers; code-review practices cut recurring defects by about 20%."
+        "Led high-volume analytics pipelines (ClickHouse-oriented workloads) and mentored engineers; reviews cut recurring defects by about 20%."
       ]
     },
     {
       "company": "Mizfa Tools",
       "role": "Software Engineer",
       "employment": "Full-time · On-site",
-      "location": "Karaj, Iran",
+      "location": "Karaj",
       "period": "Jun 2021 – May 2022",
       "bullets": [
         "Built 10 Django apps and 30+ Django REST Framework endpoints with custom permissions, improving API access control by about 40%."

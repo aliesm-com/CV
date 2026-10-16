@@ -1,13 +1,14 @@
 {
   "id": "principal-tech-lead",
   "targetRole": "Principal Software Engineer / Technical Team Lead",
-  "headline": "Engineering Leadership · AI Platforms · System Design",
-  "summary": "Hands-on Principal/Senior Software Engineer and Technical Team Lead with 5+ years shipping backend, AI, and platform systems while mentoring teams. Full-time engineering leadership is the primary commitment; advisory and AI/platform side work are scoped around that core role without competing with delivery. Owns architecture and builds LLM/NLP products with Python, Go, Streamlit, n8n, and DevOps. Fluent in English and Persian; Master's degree in AI.",
+  "headline": "Engineering Leadership · Real-time Backends · AI Platforms",
+  "summary": "Hands-on Principal/Senior Software Engineer and Technical Team Lead with 5+ years shipping backend, AI, and platform systems while mentoring teams. Full-time engineering leadership is the primary commitment; advisory and AI/platform side work are scoped around that core role without competing with delivery. Owns architecture for high-concurrency services (Go/Redis), real-time communication (WebSockets), high-volume event analytics (ClickHouse), and LLM/NLP product workflows. Drawn to scalable real-time backends, live-ops infrastructure, and AI for interactive, high-throughput products. Fluent in English and Persian; Master's degree in AI.",
   "skills": {
     "Leadership": ["Team Management", "Mentorship", "Architecture Ownership", "Code Reviews", "Delivery Planning"],
     "Core Engineering": ["Python", "Django", "Django REST Framework", "Go", "Echo", "FastAPI", "System Design"],
+    "Real-time & Concurrency": ["WebSockets", "Real-time Communication", "High-concurrency Backends", "Go", "Redis"],
     "AI & Automation": ["Generative AI", "LLMs", "NLP", "AI Agents", "Streamlit", "n8n", "AI-assisted Development"],
-    "Data & Platform": ["PostgreSQL", "ClickHouse", "Redis", "Data Engineering", "Web Scraping", "REST APIs"],
+    "Data & Analytics": ["ClickHouse", "High-volume Event Analytics", "PostgreSQL", "Redis", "Data Engineering", "REST APIs"],
     "DevOps & Reliability": ["Linux", "Docker", "Ansible", "CI/CD", "Nginx", "Traefik", "WebSockets"]
   },
   "experience": [
@@ -15,7 +16,7 @@
       "company": "Neurocage Systems LTD",
       "role": "Senior Software Engineer",
       "employment": "Full-time · Remote",
-      "location": "Montreal, Canada",
+      "location": "Remote",
       "period": "Jul 2023 – Present",
       "bullets": [
         "Drive end-to-end embedded and backend delivery focused on reliability, performance, and hardware-software integration.",
@@ -26,18 +27,18 @@
       "company": "Ai Run",
       "role": "Software Team Lead | Backend, AI Systems & DevOps",
       "employment": "Self-employed · On-site",
-      "location": "Iran",
+      "location": "Karaj",
       "period": "Sep 2024 – Present",
       "bullets": [
-        "Lead Python (Django)/Go backend architecture, standards, reviews, and LLM/automation delivery into production.",
-        "Own real-time services, Docker/Traefik/Nginx CI/CD, and mentor developers for reliable release roadmaps."
+        "Lead high-concurrency Python (Django)/Go backends with Redis; set standards, reviews, and LLM/automation delivery.",
+        "Own real-time communication (WebSockets), Docker/Traefik/Nginx CI/CD, and mentor developers for live production releases."
       ]
     },
     {
       "company": "Acticomp",
       "role": "Technical Consultant",
       "employment": "Contract · Hybrid",
-      "location": "Alborz, Iran",
+      "location": "Karaj",
       "period": "Jun 2025 – Present",
       "bullets": [
         "Advise Network and Security teams on integration strategy, scalable designs, and API/automation delivery."
@@ -47,27 +48,27 @@
       "company": "Mizfa Tools",
       "role": "Technical Consultant",
       "employment": "Contract · Remote",
-      "location": "Alborz, Iran",
+      "location": "Karaj",
       "period": "Jun 2023 – Jul 2025",
       "bullets": [
-        "Consulted on SEO analytics platforms (Python, Django, ClickHouse) and closed complex backend issues with about 95% success."
+        "Consulted on high-volume event analytics platforms (Python, Django, ClickHouse) and closed backend issues with about 95% success."
       ]
     },
     {
       "company": "Mizfa Tools",
       "role": "Technical Team Lead",
       "employment": "Full-time · On-site",
-      "location": "Karaj, Iran",
+      "location": "Karaj",
       "period": "May 2022 – May 2023",
       "bullets": [
-        "Led engineers delivering data pipelines and SEO tooling; mentoring and reviews reduced recurring defects by about 20%."
+        "Led engineers on high-volume analytics pipelines and tooling; mentoring/reviews reduced recurring defects by about 20%."
       ]
     },
     {
       "company": "Mizfa Tools",
       "role": "Software Engineer",
       "employment": "Full-time · On-site",
-      "location": "Karaj, Iran",
+      "location": "Karaj",
       "period": "Jun 2021 – May 2022",
       "bullets": [
         "Delivered 10 Django apps and 30+ secured Django REST Framework APIs, improving access-control quality by about 40%."

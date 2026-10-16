@@ -334,13 +334,16 @@ function toolbar(variants, currentFile) {
 }
 
 function contactRowDesigned(profile) {
-  const items = [
-    `<span>${escapeHtml(profile.phone)}</span>`,
+  const items = [];
+  if (profile.showPhone !== false && profile.phone) {
+    items.push(`<span>${escapeHtml(profile.phone)}</span>`);
+  }
+  items.push(
     `<a href="mailto:${escapeHtml(profile.email)}">${escapeHtml(profile.email)}</a>`,
     `<span>${escapeHtml(profile.location)}</span>`,
     `<a href="${escapeHtml(profile.links.linkedin)}">${escapeHtml(shortLink(profile.links.linkedin))}</a>`,
-    `<a href="${escapeHtml(profile.links.github)}">${escapeHtml(shortLink(profile.links.github))}</a>`,
-  ];
+    `<a href="${escapeHtml(profile.links.github)}">${escapeHtml(shortLink(profile.links.github))}</a>`
+  );
   if (profile.links.website) {
     items.push(
       `<a href="${escapeHtml(profile.links.website)}">${escapeHtml(shortLink(profile.links.website))}</a>`
@@ -350,13 +353,14 @@ function contactRowDesigned(profile) {
 }
 
 function contactRowAts(profile) {
-  const parts = [
-    profile.phone,
+  const parts = [];
+  if (profile.showPhone !== false && profile.phone) parts.push(profile.phone);
+  parts.push(
     profile.email,
     asciiText(profile.location),
     shortLink(profile.links.linkedin),
-    shortLink(profile.links.github),
-  ];
+    shortLink(profile.links.github)
+  );
   if (profile.links.website) parts.push(shortLink(profile.links.website));
   return escapeHtml(parts.join(" | "));
 }
